@@ -64,11 +64,19 @@ const fs = require("fs")
 
 //appen file using async
 
-fs.appendFileSync("./test2.txt", new Date().getDate().toLocaleString());
+// fs.appendFileSync("./test2.txt", new Date().getDate().toLocaleString());
 
-fs.appendFileSync("./test2.txt",`\n ${Date.now()} login kdflskls`)
-
-
+// fs.appendFileSync("./test2.txt",`\n ${Date.now()} login kdflskls`)
 
 
+
+// fs.cpSync("./contect.txt","./copy.txt")
+
+//for create new folder
+// fs.mkdirSync("my-doc")
+
+
+
+//for delete the file
+// fs.unlinkSync("./copy.txt")
 
