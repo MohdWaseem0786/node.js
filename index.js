@@ -40,6 +40,7 @@
 ///file structuring using crud operations-----------
 
 const fs = require("fs")
+const os=require("os")
 
 //sync file create method
 // fs.writeFileSync("./test.txt", "hello mitronnn!!!!")
@@ -80,3 +81,4 @@ const fs = require("fs")
 //for delete the file
 // fs.unlinkSync("./copy.txt")
 
+console.log(os.cpus().length);
